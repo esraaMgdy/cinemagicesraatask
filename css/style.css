@@ -1,0 +1,41 @@
+.container {
+    margin: 10 ;
+}
+
+#info {
+     background-image:linear-gradient(to right, black, white);
+     padding: 30px;
+     font-size: 15px ;
+     
+}
+
+.p-info {
+    color: orangered;
+}
+
+.main-info{
+    display: flex;
+}
+
+h2 {
+    color: orangered;
+    padding-left: 30px;
+}
+
+.Synopsis {
+    color: gray;
+    padding-left: 30px;
+}
+
+h3 {
+    color: orangered;
+    font-size: 40px;
+    padding: 15px;
+}
+
+/* If the screen size is 600px wide or less */
+@media only screen and (max-width: 600px) {
+    .main-info{
+      display: inline;
+    }
+  }
